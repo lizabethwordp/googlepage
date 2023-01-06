@@ -122,7 +122,11 @@ body{
 }
 .mirror{
   width: 14rem;
-  height: 5rem;
+  height: 7rem;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
 }
 .line{
   display: flex;
@@ -131,6 +135,10 @@ body{
   padding-left: 2rem;
   padding-right: 5rem;
   /* width: 40rem; */
+  font-family: arial, sans-serif;
+  font-size: 14.2px;
+  line-height: 1.58;
+  color: rgb(109, 108, 108);
 }
 .claim{
   display: flex;
@@ -158,6 +166,12 @@ body{
 .wiki{
   line-height: 1.2;
   /* width: 53%; */
+}
+.wiki p{
+  color: #4d5156;
+  font-family: arial, sans-serif;
+  line-height: 1.58;
+  font-size: 14px;
 }
 .wiki h3{
   color: #1a0dab;
